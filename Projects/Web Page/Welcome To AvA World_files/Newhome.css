@@ -1,0 +1,379 @@
+body {
+    padding: 20px;
+    margin: 0px;
+    background-color: white;
+}
+
+div.head1{
+    width: 1400px;
+    height: 80px;
+    padding-top: 5px;
+    margin: 20px;
+    background-color: black;
+    border-color: grey;
+    border: solid;
+
+
+}
+
+div.logo{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-align: center;
+    border: 6pc;
+    border-color: white;
+    border-radius: 2pc;
+    position: relative;
+    bottom: 6px;
+    right: 40px;
+}
+
+div.menu1 {
+ float: left;
+ font-size: 20px;
+ display: flex;
+ vertical-align: middle;
+ list-style: none;
+ margin: 50px;
+ margin-left: 55px;
+ padding: 0px 50px;
+ color: white;
+ position: absolute;
+ top: 10px;
+ left: 20px;
+
+ font-family: Georgia, 'Times New Roman', Times, serif;}
+
+div.menu1 ul  {
+    display: table;
+}
+
+div.menu1 a {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+div.menu2 {
+float: right;
+display: flex;
+position: relative;
+font-size: 20px;
+color: white;
+bottom: 75px;
+right:280px;
+}
+
+div.dd ul a {
+color: white;
+text-decoration: none;
+}
+div.Dropdown1 {
+  display: none;
+  width: 150px;
+  height: 100px;
+  background-color: black;
+  margin: 0px;
+  position: absolute;
+  top: 65px;
+  left: 20px; 
+  border-style: solid;
+  border: solid;
+  border-color: grey;  
+  text-decoration: underline;
+  padding-top:  40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  
+}
+div.Mu {
+    position: relative;
+    width: 120px;
+    height: 90px;
+}
+
+
+div.Mu:hover .Dropdown1 {
+    display: block;
+}
+
+div.Dropdown1 ul:hover {
+    background-color: rgb(37, 37, 37);
+
+}
+
+div.Dropdown2 {
+    display:none;
+    width: 150px;
+    height: 140px;
+    background-color: black;
+    position: absolute;
+    top: 65px;
+    left: 0.5px;
+    border: solid;
+    border-color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: underline;
+    margin: 0px;
+    border-style: solid ;
+}
+
+div.Dropdown2 ul {
+    margin-top: 40px;
+    text-align: left;
+    
+}
+
+
+div.dd {
+position: relative;
+width: 120px;
+height: 250px;
+right: 5px;
+}
+
+div.dd:hover .Dropdown2 {
+    display: block;
+
+}
+
+div.Dropdown2 ul:hover {
+    background-color: rgb(42, 42, 42);
+}
+
+div.menu3 ul a {
+    color: white;
+    text-decoration: none;
+}
+
+div.Dropdown3 {
+    display:none;
+    width: 150px;
+    height: 140px;
+    background-color: black;
+    position: absolute;
+    top: 65px;
+    left: 20px;
+    border: solid;
+    border-color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+div.Dropdown3 ul {
+    margin-top: 40px;
+    text-align: left;
+    text-decoration: underline;
+}
+
+div.Dropdown3 ul a {
+    color: white;
+}
+
+div.menu4 {
+ position: relative;
+ left: 20px;
+height: 250px;  
+}
+
+
+div.menu4:hover  .Dropdown3 {
+    display: block;
+
+}
+
+div.Dropdown3 ul:hover {
+    background-color: rgb(42, 42, 42);
+}
+
+div.Dropdown4 {
+    display:none;
+    width: 180px;
+    height: 140px;
+    background-color: black;
+    position: absolute;
+    top: 68px;
+    left: 320px;
+    border: solid;
+    border-color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+div.Dropdown4 ul {
+    margin-top: 40px;
+    text-align: left;
+    text-decoration: underline; 
+    position: relative;
+    left: 20px;   
+}
+
+div.love:hover  .Dropdown4 {
+    display: block;
+
+}
+
+div.love {
+
+    height: 250px;
+}
+
+div.Dropdown4 ul:hover {
+    background-color: rgb(42, 42, 42);
+}
+
+div.Mainbody {
+    background-color: black;
+    width: 880px;
+    height: 100px;
+    padding: 235px;
+    margin: 20px;
+    border: solid;
+    border-color: gray;
+
+}
+
+div.MainHeader h1 {
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left: 100px ;}
+
+div.MainHeader h1 span {
+    color: white;
+    position: relative;
+    top: 50px;
+    right: 260px;
+    font-size: 18px;
+    font-family: cursive;
+    font-style: italic;
+}
+
+div.divofbody {
+    width: 800px;
+    height: 300px;
+    position: relative;
+    left: 60px;
+    bottom: 120px;
+    border: solid;
+    border-color: grey;
+}
+
+div.divofbody p {
+    color: white;
+    padding-top: 50px;
+    padding-left: 300px;
+    position: relative;
+    right: 150px;
+    bottom: 20px;
+    text-indent: 10px;
+    display: flex;
+    font-family: 'Moon Dance';
+    font-style: italic;
+    font-size: 20px;
+}
+
+div.button  button{
+        position: relative;
+        left: 300px;
+        width: 150px;
+        bottom:20px ;
+        border: solid;
+        border-color: gray ;
+        background-color: black;
+}
+
+div.button button span {
+        font-family: cursive;
+        color: white;
+}
+
+div.Footer {
+    width: 1400px;
+    height: 250px;
+    background-color: black;
+    margin: 20px;
+    position: relative;
+    bottom: 18px;
+    border: solid;
+    border-color: grey; 
+    position: relative;
+    right: 20px;   
+}
+
+div.F1 {
+    color: white;
+    margin: 50px;
+    position: relative;
+    left: 100px;
+    padding-top: 0.5px;
+}
+
+div.F1 h1 {
+    font-size: 20px;
+}
+
+div.F1 p {
+    font-size: 20px;
+    font-family: cursive;
+}
+
+div.F2 {
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 175px;
+   right: 20px;
+    
+}
+
+div.F3  {
+    color: white;
+    text-align: right;
+    position: relative;
+    bottom: 295px;
+    right: 120px;
+}
+
+div.F3 h1 {
+    font-size: 20px;
+}
+
+div.F2 h1 {
+    font-size: 18px;
+}
+
+div.F2 p span {
+    color: white;
+    position: relative;
+    top: 10px;
+    font-family: cursive;
+}
+
+div.F2 p {
+    color: white;
+    font-family: cursive
+}
+
+div.F3 button {
+    width: 300px;
+    height: 20px;
+    position: relative;
+    margin-top: 10px;
+}
+div.F3 p button {
+    width: 100px;
+    position: relative;
+    right: 100px;
+    bottom: 10px;
+    border: solid;
+    border-color: grey;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    height: 30px;
+}

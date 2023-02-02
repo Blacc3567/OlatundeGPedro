@@ -1,0 +1,149 @@
+body {
+    background-color: black;
+}
+
+div.Head {
+    width: 1500px;
+    height: 150px;
+    border: solid;
+    border-color: grey;
+
+}
+
+div.Logo h1  {
+   color: white;
+   text-align: center;
+   position: relative;
+   right: 50px;
+   top: 10px;
+   font-size: 55px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div.Button button {
+    width: 150px;
+    height: 20px;
+    float: right;
+    position: relative;
+    bottom: 80px;
+    right: 250px;
+    border: solid;
+    border-color: gray;
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+div.Button1 button{
+    width: 150px;
+    height: 20px;
+    float: right;
+    position: relative;
+    bottom: 80px;
+    left: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    background-color: black;
+    border-color: solid;
+    border-color: gray;   
+}
+
+div.bodyhead h1 {
+    color: white;
+    text-align: center;
+    position: relative;
+    right: 20px;
+    top: 200px;
+    font-family: 'Moon Dance';
+    text-decoration: underline;
+ }
+
+ div.bodyofbody {
+    width: 1000px;
+    height: 1300px;
+    position: relative;
+    bottom: 60px;
+    padding: 70px;
+    margin: 150px;
+    border: solid;
+    border-color: grey;
+}
+
+div.img {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    left: 50px;
+    bottom: 60px;
+    margin: 150px;
+    border: solid;
+    border-color: grey;  
+  
+}
+
+div.TourImage img {
+    width: 600px;
+    height: 400px;
+}
+
+div.bodytext {
+    width: 700px;
+    height: 600px;
+    position: relative;
+    bottom: 150px;
+    right: 20px;
+    margin: 150px;
+    border: solid;
+    border-color: grey; 
+    padding: 30px;
+}
+
+div.bodytext p {
+    color: white;
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+    font-family: 'Moon Dance';
+    left: 180px;
+}
+
+div.bodytext ul {
+    color: white;
+    position: relative;
+    top: 80px;
+    font-size: 15px;
+    font-family: 'Moon Dance';
+    left: 220px;
+} 
+
+div.Textfooter p {
+    color: white;
+    position: relative;
+    top: 100px;
+    font-size: 20px;
+    font-family: 'Moon Dance';
+    left: 200px;   
+}
+
+div.Textfooter button {
+    width: 200px;
+    height: 20px;
+    float: right;
+    position: relative;
+    top: 120px;
+    right: 280px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    background-color: black;
+    border-color: solid;
+    border-color: gray;
+}
+
+div.bodyend p {
+    color: white;
+    position: relative;
+    bottom: 250px;
+    font-size: 18px;
+    font-family: 'Moon Dance';
+    left: 330px;    
+}

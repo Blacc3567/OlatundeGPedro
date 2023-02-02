@@ -1,0 +1,175 @@
+body {
+    background-color: black;
+}
+
+div.Head {
+    width: 1500px;
+    height: 150px;
+    border: solid;
+    border-color: grey;
+
+}
+
+div.Logo h1  {
+   color: white;
+   text-align: center;
+   position: relative;
+   right: 50px;
+   top: 10px;
+   font-size: 55px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div.Button button {
+    width: 150px;
+    height: 20px;
+    float: right;
+    position: relative;
+    bottom: 80px;
+    right: 250px;
+    border: solid;
+    border-color: gray;
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+div.Button1 button{
+    width: 150px;
+    height: 20px;
+    float: right;
+    position: relative;
+    bottom: 80px;
+    left: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    background-color: black;
+    border-color: solid;
+    border-color: gray;   
+}
+
+div.bodyofbody {
+    width: 1000px;
+    height: 1500px;
+    position: relative;
+    bottom: 60px;
+    padding: 70px;
+    margin: 150px;
+    border: solid;
+    border-color: grey;
+}
+
+div.bodyhead h1 {
+    color: white;
+    text-align: center;
+    position: relative;
+    right: 20px;
+    bottom: 50px;
+    font-family: 'Moon Dance';
+    text-decoration: underline;
+ }
+
+ div.graphics {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 500px;
+    bottom: 1000px;
+    margin: 150px;
+    border: solid;
+    border-color: grey; 
+ }
+ div.graphics img {
+    width: 300px;
+    height: 300px;
+ }
+
+ div.graphics2 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 550px;
+    bottom: 1000px;
+    margin: 150px;
+    border: solid;
+    border-color: grey; 
+ }
+
+ div.graphics2 img {
+    width: 300px;
+    height: 300px;
+ }
+
+ div.graphics3 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 500px;
+    bottom: 600px;
+    margin: 150px;
+    border: solid;
+    border-color: grey; 
+ }
+
+ div.graphics3 img {
+    width: 300px;
+    height: 300px;
+ }
+
+ div.graphics4 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 550px;
+    bottom: 600px;
+    margin: 150px;
+    border: solid;
+    border-color: grey;
+ }
+
+ div.graphics4 img {
+    width: 300px;
+    height: 300px;
+ }
+ div.graphics5 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 500px;
+    bottom: 200px;
+    margin: 150px;
+    border: solid;
+    border-color: grey; 
+ }
+
+ 
+ div.graphics5 img {
+    width: 300px;
+    height: 300px;
+ }
+
+ div.graphics6 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 550px;
+    bottom: 200px;
+    margin: 150px;
+    border: solid;
+    border-color: grey;
+ }
+
+ 
+ div.graphics6 img {
+    width: 300px;
+    height: 300px;
+ }
+
+ div.bodyfooter p {
+    color: white;
+    font-size: 25px;
+    position: relative;
+   top: 1200px;
+   left: 250px;
+    font-family: 'Moon Dance';
+}
